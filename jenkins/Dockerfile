@@ -15,4 +15,4 @@ RUN apt-get update && \
 RUN groupadd -f docker && usermod -aG docker jenkins
 
 # กลับไปใช้ user jenkins
-USER jenkins
+
