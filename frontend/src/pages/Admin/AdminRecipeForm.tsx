@@ -414,7 +414,7 @@ export default function AdminRecipeForm() {
       image_url: recipe.image_url,
       cooking_time: parseInt(recipe.cooking_time) || 0,
       description: recipe.description,
-      difficulty: recipe.difficulty || 'Easy',
+      difficulty: recipe.difficulty || 'easy',
       user_id: userID, // Hardcoded for demo, would come from auth context in real app
       ingredients: recipe.ingredients.map(ing => ({
         ingredient_id: ing.ingredient_id,
